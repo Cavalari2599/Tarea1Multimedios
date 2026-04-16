@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Blog – Explore the World</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styless.css" />
+</head>
+<body>
+
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">TheBlog</a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul>
+          
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menú">&#9776;</button>
+    </div>
+  </header>
+
+
+  <main>
+
+  
+    <section class="hero-grid" aria-label="Artículos destacados">
+      <div class="container">
+        <div class="hero-cards">
+
+          <article class="hero-card">
+            <img
+              src="img/imagen1.png"
+alt="Montañas con lago alpino al atardecer"
+class="hero-card__img"
+            />
+            <div class="hero-card__body">
+              <span class="tag tag--lifestyle">Lifestyle</span>
+              <h2 class="hero-card__title">The Most Popular Places to Visit in the World</h2>
+              <p class="hero-card__meta">Top Places</p>
+            </div>
+          </article>
+
+          <article class="hero-card">
+            <img
+             src="img/imagen2.png"
+              alt="Persona practicando yoga al aire libre al amanecer"
+              class="hero-card__img"
+            />
+            <div class="hero-card__body">
+              <span class="tag tag--health">Health</span>
+              <h2 class="hero-card__title">Does Exercise Help with your Productivity</h2>
+              <p class="hero-card__meta">Health Chat</p>
+            </div>
+          </article>
+
+          <article class="hero-card">
+            <img
+              src="img/imagen3.png"
+              alt="Control de videojuego rojo sostenido por una mano"
+              class="hero-card__img"
+            />
+            <div class="hero-card__body">
+              <span class="tag tag--gaming">Gaming</span>
+              <h2 class="hero-card__title">Can Playing Video Games Help Reduce Stress?</h2>
+              <p class="hero-card__meta">Game Play</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTENT + SIDEBAR ===================== -->
+    <section class="content-area" aria-label="Contenido principal">
+      <div class="container content-grid">
+
+        <!-- LEFT: Featured post + post grid -->
+        <div class="posts-column">
+
+          <!-- Big featured post -->
+          <article class="featured-post">
+            <img
+            src="img/imagen4.png"
+              alt="Bote en un lago glacial rodeado de montañas nevadas"
+              class="featured-post__img"
+            />
+            <div class="featured-post__body">
+              <span class="tag tag--travel">Travel</span>
+              <h2 class="featured-post__title">Where to Visit on Your Next Vacation</h2>
+              <p class="featured-post__meta">Written by Jane Doe on December 02, 2019</p>
+              <p class="featured-post__excerpt">
+                There are thousands of places you can visit on your next vacation. In this post
+                we'll show you the top destinations to consider for your next adventure.
+              </p>
+              <a href="#" class="read-more">Continue Reading &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Post grid 2×2 -->
+          <div class="post-grid">
+
+            <article class="post-card">
+              <img
+                src="img/imagen5.png"
+                alt="Grupo de amigos reunidos alrededor de una hoguera en la playa"
+              />
+              <div class="post-card__body">
+                <h3 class="post-card__title">Time for the Beach and Friends</h3>
+                <p class="post-card__excerpt">Many people live so close to amazing scenery, yet they rarely take the time to enjoy it...</p>
+                <a href="#" class="read-more">Continue Reading &rarr;</a>
+              </div>
+            </article>
+
+            <article class="post-card">
+              <img
+                 src="img/imagen6.png"
+                alt="Camino de madera sobre un lago reflejando el cielo estrellado"
+              />
+              <div class="post-card__body">
+                <h3 class="post-card__title">Are you Ready for an Experience?</h3>
+                <p class="post-card__excerpt">Check out these awesome places you'll want to visit as you set your goals...</p>
+                <a href="#" class="read-more">Continue Reading &rarr;</a>
+              </div>
+            </article>
+
+            <article class="post-card">
+              <img
+                 src="img/imagen7.png"
+                alt="Niños corriendo entre árboles en un bosque neblinoso al amanecer"
+              />
+              <div class="post-card__body">
+                <h3 class="post-card__title">Take Me Back in Time</h3>
+                <p class="post-card__excerpt">How nice would that be to go back in time and enjoy the youth of life once more...</p>
+                <a href="#" class="read-more">Continue Reading &rarr;</a>
+              </div>
+            </article>
+
+            <article class="post-card">
+              <img
+                 src="img/imagen8.png"
+                alt="Atleta realizando entrenamiento de fuerza en un gimnasio"
+              />
+              <div class="post-card__body">
+                <h3 class="post-card__title">Here are the Best Ways to Train</h3>
+                <p class="post-card__excerpt">Learn about the best ways to train to get the most of your workout sessions...</p>
+                <a href="#" class="read-more">Continue Reading &rarr;</a>
+              </div>
+            </article>
+
+          </div><!-- /.post-grid -->
+        </div><!-- /.posts-column -->
+
+        <!-- RIGHT: Sidebar -->
+        <aside class="sidebar" aria-label="Barra lateral">
+
+          <!-- Newsletter -->
+          <div class="widget widget--newsletter">
+            <h3 class="widget__title">Subscribe to our Newsletter</h3>
+            <p class="widget__subtitle">No Spam. Only one email per week.</p>
+            <form class="newsletter-form" novalidate>
+              <label for="first-name" class="sr-only">First Name</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="First Name"
+                class="newsletter-form__input"
+              />
+              <label for="email" class="sr-only">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email Address"
+                class="newsletter-form__input"
+              />
+              <button type="submit" class="btn-subscribe">SUBSCRIBE</button>
+            </form>
+          </div>
+
+          <!-- Categories -->
+          <div class="widget widget--categories">
+            <h3 class="widget__title">Categories</h3>
+            <ul class="category-list">
+              <li><a href="#">Lifestyle</a> <span>32</span></li>
+              <li><a href="#">Health</a> <span>41</span></li>
+              <li><a href="#">Gaming</a> <span>27</span></li>
+              <li><a href="#">Travel</a> <span>23</span></li>
+              <li><a href="#">Food</a> <span>15</span></li>
+              <li><a href="#">Business</a> <span>28</span></li>
+            </ul>
+          </div>
+
+          <!-- Recent Posts -->
+          <div class="widget widget--recent">
+            <h3 class="widget__title">Recent Posts</h3>
+            <ul class="recent-list">
+              <li class="recent-item">
+                <img
+                  src="img/imagen1.png"
+                  alt="Imagen miniatura: destinos más populares del mundo"
+                  class="recent-item__img"
+                />
+                <div>
+                  <a href="#" class="recent-item__title">Top Destinations to Visit in the World</a>
+                  <p class="recent-item__date">January 02, 2021</p>
+                </div>
+              </li>
+              <li class="recent-item">
+                <img
+                   src="img/imagen3.png"
+                  alt="Imagen miniatura: experiencia de gaming M"
+                  class="recent-item__img"
+                />
+                <div>
+                  <a href="#" class="recent-item__title">Experience the Future of the M Gaming Experience</a>
+                  <p class="recent-item__date">January 04, 2021</p>
+                </div>
+              </li>
+              <li class="recent-item">
+                <img
+                   src="img/imagen4.png"
+                  alt="Imagen miniatura: viaje al fin del mundo"
+                  class="recent-item__img"
+                />
+                <div>
+                  <a href="#" class="recent-item__title">Take a Trip to The End of The World</a>
+                  <p class="recent-item__date">January 25, 2021</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </aside><!-- /.sidebar -->
+      </div><!-- /.content-grid -->
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; 2024 TheBlog. All rights reserved.</p>
+      <nav class="footer-nav" aria-label="Navegación del pie de página">
+      
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('is-open');
+    });
+  </script>
+</body>
+</html>

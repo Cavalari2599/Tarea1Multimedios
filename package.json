@@ -1,0 +1,24 @@
+{
+  "name": "tarea1multimedios",
+  "version": "1.0.0",
+  "description": "Primera tarea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cavalari2599/Tarea1Multimedios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Cavalari2599/Tarea1Multimedios/issues"
+  },
+  "homepage": "https://github.com/Cavalari2599/Tarea1Multimedios#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
